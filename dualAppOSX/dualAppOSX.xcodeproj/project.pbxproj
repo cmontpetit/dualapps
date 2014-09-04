@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96B74E9719B800FA0014F802 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B74E9619B800FA0014F802 /* main.swift */; };
+		96B74E9919B800FA0014F802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B74E9819B800FA0014F802 /* AppDelegate.swift */; };
+		96B74E9C19B800FB0014F802 /* dualAppOSX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96B74E9A19B800FB0014F802 /* dualAppOSX.xcdatamodeld */; };
+		96B74E9E19B800FB0014F802 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B74E9D19B800FB0014F802 /* Images.xcassets */; };
+		96B74EA119B800FB0014F802 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B74E9F19B800FB0014F802 /* MainMenu.xib */; };
+		96B74EAD19B800FB0014F802 /* dualAppOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B74EAC19B800FB0014F802 /* dualAppOSXTests.swift */; };
+		96B74EBC19B802310014F802 /* dualapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96B74EB819B802310014F802 /* dualapp.xcdatamodeld */; };
+		96B74EBD19B802310014F802 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B74EBA19B802310014F802 /* ModelManager.swift */; };
+		96B74EBE19B802310014F802 /* SharedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B74EBB19B802310014F802 /* SharedEntity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96B74EA719B800FB0014F802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96B74E8919B800FA0014F802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96B74E9019B800FA0014F802;
+			remoteInfo = dualAppOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96B74E9119B800FA0014F802 /* dualAppOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dualAppOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B74E9519B800FA0014F802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B74E9619B800FA0014F802 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		96B74E9819B800FA0014F802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96B74E9B19B800FB0014F802 /* dualAppOSX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dualAppOSX.xcdatamodel; sourceTree = "<group>"; };
+		96B74E9D19B800FB0014F802 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96B74EA019B800FB0014F802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		96B74EA619B800FB0014F802 /* dualAppOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dualAppOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B74EAB19B800FB0014F802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B74EAC19B800FB0014F802 /* dualAppOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dualAppOSXTests.swift; sourceTree = "<group>"; };
+		96B74EB619B8019D0014F802 /* dualAppOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = dualAppOSX.entitlements; sourceTree = "<group>"; };
+		96B74EB919B802310014F802 /* dualapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dualapp.xcdatamodel; sourceTree = "<group>"; };
+		96B74EBA19B802310014F802 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		96B74EBB19B802310014F802 /* SharedEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedEntity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B74E8E19B800FA0014F802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B74EA319B800FB0014F802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96B74E8819B800FA0014F802 = {
+			isa = PBXGroup;
+			children = (
+				96B74EB719B802310014F802 /* common */,
+				96B74E9319B800FA0014F802 /* dualAppOSX */,
+				96B74EA919B800FB0014F802 /* dualAppOSXTests */,
+				96B74E9219B800FA0014F802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96B74E9219B800FA0014F802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96B74E9119B800FA0014F802 /* dualAppOSX.app */,
+				96B74EA619B800FB0014F802 /* dualAppOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B74E9319B800FA0014F802 /* dualAppOSX */ = {
+			isa = PBXGroup;
+			children = (
+				96B74EB619B8019D0014F802 /* dualAppOSX.entitlements */,
+				96B74E9819B800FA0014F802 /* AppDelegate.swift */,
+				96B74E9D19B800FB0014F802 /* Images.xcassets */,
+				96B74E9F19B800FB0014F802 /* MainMenu.xib */,
+				96B74E9A19B800FB0014F802 /* dualAppOSX.xcdatamodeld */,
+				96B74E9419B800FA0014F802 /* Supporting Files */,
+			);
+			path = dualAppOSX;
+			sourceTree = "<group>";
+		};
+		96B74E9419B800FA0014F802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96B74E9519B800FA0014F802 /* Info.plist */,
+				96B74E9619B800FA0014F802 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96B74EA919B800FB0014F802 /* dualAppOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				96B74EAC19B800FB0014F802 /* dualAppOSXTests.swift */,
+				96B74EAA19B800FB0014F802 /* Supporting Files */,
+			);
+			path = dualAppOSXTests;
+			sourceTree = "<group>";
+		};
+		96B74EAA19B800FB0014F802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96B74EAB19B800FB0014F802 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96B74EB719B802310014F802 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				96B74EB819B802310014F802 /* dualapp.xcdatamodeld */,
+				96B74EBA19B802310014F802 /* ModelManager.swift */,
+				96B74EBB19B802310014F802 /* SharedEntity.swift */,
+			);
+			name = common;
+			path = ../common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B74E9019B800FA0014F802 /* dualAppOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B74EB019B800FB0014F802 /* Build configuration list for PBXNativeTarget "dualAppOSX" */;
+			buildPhases = (
+				96B74E8D19B800FA0014F802 /* Sources */,
+				96B74E8E19B800FA0014F802 /* Frameworks */,
+				96B74E8F19B800FA0014F802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dualAppOSX;
+			productName = dualAppOSX;
+			productReference = 96B74E9119B800FA0014F802 /* dualAppOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96B74EA519B800FB0014F802 /* dualAppOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B74EB319B800FB0014F802 /* Build configuration list for PBXNativeTarget "dualAppOSXTests" */;
+			buildPhases = (
+				96B74EA219B800FB0014F802 /* Sources */,
+				96B74EA319B800FB0014F802 /* Frameworks */,
+				96B74EA419B800FB0014F802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96B74EA819B800FB0014F802 /* PBXTargetDependency */,
+			);
+			name = dualAppOSXTests;
+			productName = dualAppOSXTests;
+			productReference = 96B74EA619B800FB0014F802 /* dualAppOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B74E8919B800FA0014F802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = dualapps;
+				TargetAttributes = {
+					96B74E9019B800FA0014F802 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = N4DH3D8HZT;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					96B74EA519B800FB0014F802 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 96B74E9019B800FA0014F802;
+					};
+				};
+			};
+			buildConfigurationList = 96B74E8C19B800FA0014F802 /* Build configuration list for PBXProject "dualAppOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96B74E8819B800FA0014F802;
+			productRefGroup = 96B74E9219B800FA0014F802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96B74E9019B800FA0014F802 /* dualAppOSX */,
+				96B74EA519B800FB0014F802 /* dualAppOSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96B74E8F19B800FA0014F802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B74E9E19B800FB0014F802 /* Images.xcassets in Resources */,
+				96B74EA119B800FB0014F802 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B74EA419B800FB0014F802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B74E8D19B800FA0014F802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B74E9919B800FA0014F802 /* AppDelegate.swift in Sources */,
+				96B74EBE19B802310014F802 /* SharedEntity.swift in Sources */,
+				96B74E9719B800FA0014F802 /* main.swift in Sources */,
+				96B74EBD19B802310014F802 /* ModelManager.swift in Sources */,
+				96B74E9C19B800FB0014F802 /* dualAppOSX.xcdatamodeld in Sources */,
+				96B74EBC19B802310014F802 /* dualapp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B74EA219B800FB0014F802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B74EAD19B800FB0014F802 /* dualAppOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96B74EA819B800FB0014F802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96B74E9019B800FA0014F802 /* dualAppOSX */;
+			targetProxy = 96B74EA719B800FB0014F802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96B74E9F19B800FB0014F802 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B74EA019B800FB0014F802 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96B74EAE19B800FB0014F802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96B74EAF19B800FB0014F802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96B74EB119B800FB0014F802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = dualAppOSX/dualAppOSX.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dualAppOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		96B74EB219B800FB0014F802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = dualAppOSX/dualAppOSX.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dualAppOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		96B74EB419B800FB0014F802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dualAppOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dualAppOSX.app/Contents/MacOS/dualAppOSX";
+			};
+			name = Debug;
+		};
+		96B74EB519B800FB0014F802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dualAppOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dualAppOSX.app/Contents/MacOS/dualAppOSX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B74E8C19B800FA0014F802 /* Build configuration list for PBXProject "dualAppOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B74EAE19B800FB0014F802 /* Debug */,
+				96B74EAF19B800FB0014F802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B74EB019B800FB0014F802 /* Build configuration list for PBXNativeTarget "dualAppOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B74EB119B800FB0014F802 /* Debug */,
+				96B74EB219B800FB0014F802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96B74EB319B800FB0014F802 /* Build configuration list for PBXNativeTarget "dualAppOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B74EB419B800FB0014F802 /* Debug */,
+				96B74EB519B800FB0014F802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96B74E9A19B800FB0014F802 /* dualAppOSX.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96B74E9B19B800FB0014F802 /* dualAppOSX.xcdatamodel */,
+			);
+			currentVersion = 96B74E9B19B800FB0014F802 /* dualAppOSX.xcdatamodel */;
+			path = dualAppOSX.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		96B74EB819B802310014F802 /* dualapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96B74EB919B802310014F802 /* dualapp.xcdatamodel */,
+			);
+			currentVersion = 96B74EB919B802310014F802 /* dualapp.xcdatamodel */;
+			path = dualapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 96B74E8919B800FA0014F802 /* Project object */;
+}

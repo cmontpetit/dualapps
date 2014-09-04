@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96B74E5E19B7F8830014F802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B74E5D19B7F8830014F802 /* AppDelegate.swift */; };
+		96B74E6119B7F8830014F802 /* dualappIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96B74E5F19B7F8830014F802 /* dualappIOS.xcdatamodeld */; };
+		96B74E6319B7F8830014F802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B74E6219B7F8830014F802 /* ViewController.swift */; };
+		96B74E6619B7F8830014F802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B74E6419B7F8830014F802 /* Main.storyboard */; };
+		96B74E6819B7F8830014F802 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B74E6719B7F8830014F802 /* Images.xcassets */; };
+		96B74E7419B7F8830014F802 /* dualappIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B74E7319B7F8830014F802 /* dualappIOSTests.swift */; };
+		96B74E8219B7F9370014F802 /* dualapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96B74E7E19B7F9370014F802 /* dualapp.xcdatamodeld */; };
+		96B74E8319B7F9370014F802 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B74E8019B7F9370014F802 /* ModelManager.swift */; };
+		96B74E8419B7F9370014F802 /* SharedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B74E8119B7F9370014F802 /* SharedEntity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96B74E6E19B7F8830014F802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96B74E5019B7F8830014F802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96B74E5719B7F8830014F802;
+			remoteInfo = dualappIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96B74E5819B7F8830014F802 /* dualappIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dualappIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B74E5C19B7F8830014F802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B74E5D19B7F8830014F802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96B74E6019B7F8830014F802 /* dualappIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dualappIOS.xcdatamodel; sourceTree = "<group>"; };
+		96B74E6219B7F8830014F802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96B74E6519B7F8830014F802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96B74E6719B7F8830014F802 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96B74E6D19B7F8830014F802 /* dualappIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dualappIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B74E7219B7F8830014F802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B74E7319B7F8830014F802 /* dualappIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dualappIOSTests.swift; sourceTree = "<group>"; };
+		96B74E7F19B7F9370014F802 /* dualapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dualapp.xcdatamodel; sourceTree = "<group>"; };
+		96B74E8019B7F9370014F802 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		96B74E8119B7F9370014F802 /* SharedEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedEntity.swift; sourceTree = "<group>"; };
+		96B74E8719B7FAAF0014F802 /* dualappIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = dualappIOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B74E5519B7F8830014F802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B74E6A19B7F8830014F802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96B74E4F19B7F8830014F802 = {
+			isa = PBXGroup;
+			children = (
+				96B74E7D19B7F9370014F802 /* common */,
+				96B74E5A19B7F8830014F802 /* dualappIOS */,
+				96B74E7019B7F8830014F802 /* dualappIOSTests */,
+				96B74E5919B7F8830014F802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96B74E5919B7F8830014F802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96B74E5819B7F8830014F802 /* dualappIOS.app */,
+				96B74E6D19B7F8830014F802 /* dualappIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B74E5A19B7F8830014F802 /* dualappIOS */ = {
+			isa = PBXGroup;
+			children = (
+				96B74E8719B7FAAF0014F802 /* dualappIOS.entitlements */,
+				96B74E5D19B7F8830014F802 /* AppDelegate.swift */,
+				96B74E6219B7F8830014F802 /* ViewController.swift */,
+				96B74E6419B7F8830014F802 /* Main.storyboard */,
+				96B74E6719B7F8830014F802 /* Images.xcassets */,
+				96B74E5F19B7F8830014F802 /* dualappIOS.xcdatamodeld */,
+				96B74E5B19B7F8830014F802 /* Supporting Files */,
+			);
+			path = dualappIOS;
+			sourceTree = "<group>";
+		};
+		96B74E5B19B7F8830014F802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96B74E5C19B7F8830014F802 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96B74E7019B7F8830014F802 /* dualappIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				96B74E7319B7F8830014F802 /* dualappIOSTests.swift */,
+				96B74E7119B7F8830014F802 /* Supporting Files */,
+			);
+			path = dualappIOSTests;
+			sourceTree = "<group>";
+		};
+		96B74E7119B7F8830014F802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96B74E7219B7F8830014F802 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96B74E7D19B7F9370014F802 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				96B74E7E19B7F9370014F802 /* dualapp.xcdatamodeld */,
+				96B74E8019B7F9370014F802 /* ModelManager.swift */,
+				96B74E8119B7F9370014F802 /* SharedEntity.swift */,
+			);
+			name = common;
+			path = ../common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B74E5719B7F8830014F802 /* dualappIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B74E7719B7F8830014F802 /* Build configuration list for PBXNativeTarget "dualappIOS" */;
+			buildPhases = (
+				96B74E5419B7F8830014F802 /* Sources */,
+				96B74E5519B7F8830014F802 /* Frameworks */,
+				96B74E5619B7F8830014F802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dualappIOS;
+			productName = dualappIOS;
+			productReference = 96B74E5819B7F8830014F802 /* dualappIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96B74E6C19B7F8830014F802 /* dualappIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B74E7A19B7F8830014F802 /* Build configuration list for PBXNativeTarget "dualappIOSTests" */;
+			buildPhases = (
+				96B74E6919B7F8830014F802 /* Sources */,
+				96B74E6A19B7F8830014F802 /* Frameworks */,
+				96B74E6B19B7F8830014F802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96B74E6F19B7F8830014F802 /* PBXTargetDependency */,
+			);
+			name = dualappIOSTests;
+			productName = dualappIOSTests;
+			productReference = 96B74E6D19B7F8830014F802 /* dualappIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B74E5019B7F8830014F802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = dualapps;
+				TargetAttributes = {
+					96B74E5719B7F8830014F802 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = N4DH3D8HZT;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					96B74E6C19B7F8830014F802 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 96B74E5719B7F8830014F802;
+					};
+				};
+			};
+			buildConfigurationList = 96B74E5319B7F8830014F802 /* Build configuration list for PBXProject "dualappIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96B74E4F19B7F8830014F802;
+			productRefGroup = 96B74E5919B7F8830014F802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96B74E5719B7F8830014F802 /* dualappIOS */,
+				96B74E6C19B7F8830014F802 /* dualappIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96B74E5619B7F8830014F802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B74E6619B7F8830014F802 /* Main.storyboard in Resources */,
+				96B74E6819B7F8830014F802 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B74E6B19B7F8830014F802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B74E5419B7F8830014F802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B74E6319B7F8830014F802 /* ViewController.swift in Sources */,
+				96B74E8419B7F9370014F802 /* SharedEntity.swift in Sources */,
+				96B74E5E19B7F8830014F802 /* AppDelegate.swift in Sources */,
+				96B74E8319B7F9370014F802 /* ModelManager.swift in Sources */,
+				96B74E6119B7F8830014F802 /* dualappIOS.xcdatamodeld in Sources */,
+				96B74E8219B7F9370014F802 /* dualapp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B74E6919B7F8830014F802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B74E7419B7F8830014F802 /* dualappIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96B74E6F19B7F8830014F802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96B74E5719B7F8830014F802 /* dualappIOS */;
+			targetProxy = 96B74E6E19B7F8830014F802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96B74E6419B7F8830014F802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B74E6519B7F8830014F802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96B74E7519B7F8830014F802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96B74E7619B7F8830014F802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96B74E7819B7F8830014F802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = dualappIOS/dualappIOS.entitlements;
+				INFOPLIST_FILE = dualappIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96B74E7919B7F8830014F802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = dualappIOS/dualappIOS.entitlements;
+				INFOPLIST_FILE = dualappIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96B74E7B19B7F8830014F802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dualappIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dualappIOS.app/dualappIOS";
+			};
+			name = Debug;
+		};
+		96B74E7C19B7F8830014F802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dualappIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dualappIOS.app/dualappIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B74E5319B7F8830014F802 /* Build configuration list for PBXProject "dualappIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B74E7519B7F8830014F802 /* Debug */,
+				96B74E7619B7F8830014F802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B74E7719B7F8830014F802 /* Build configuration list for PBXNativeTarget "dualappIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B74E7819B7F8830014F802 /* Debug */,
+				96B74E7919B7F8830014F802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96B74E7A19B7F8830014F802 /* Build configuration list for PBXNativeTarget "dualappIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B74E7B19B7F8830014F802 /* Debug */,
+				96B74E7C19B7F8830014F802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96B74E5F19B7F8830014F802 /* dualappIOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96B74E6019B7F8830014F802 /* dualappIOS.xcdatamodel */,
+			);
+			currentVersion = 96B74E6019B7F8830014F802 /* dualappIOS.xcdatamodel */;
+			path = dualappIOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		96B74E7E19B7F9370014F802 /* dualapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96B74E7F19B7F9370014F802 /* dualapp.xcdatamodel */,
+			);
+			currentVersion = 96B74E7F19B7F9370014F802 /* dualapp.xcdatamodel */;
+			path = dualapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 96B74E5019B7F8830014F802 /* Project object */;
+}
